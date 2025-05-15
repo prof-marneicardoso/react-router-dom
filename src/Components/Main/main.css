@@ -1,0 +1,9 @@
+
+main {
+    padding: 2rem 4rem;
+    min-height: 100vh;
+}
+
+h1, p {
+    padding: 1rem 0;
+}

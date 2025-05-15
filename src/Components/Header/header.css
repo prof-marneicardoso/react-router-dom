@@ -1,4 +1,6 @@
 
 header {
-    height: 12rem;
+    height: 16rem;
+    background-color: var(--color-03);
+    padding: 5rem 4rem;
 }

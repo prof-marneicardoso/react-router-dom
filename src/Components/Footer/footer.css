@@ -1,0 +1,7 @@
+
+footer {
+    padding: 2rem 4rem;
+    min-height: 12rem;
+    background-color: var(--color-07);
+    color: var(--color-03);
+}
