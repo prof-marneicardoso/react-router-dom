@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export function Navigation() {
+export function Nav() {
     return (
         <nav>
             <ul>
