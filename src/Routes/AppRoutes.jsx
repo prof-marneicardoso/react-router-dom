@@ -10,7 +10,13 @@ export function AppRoutes() {
         <Routes>
             {/* Ao acessar a rota, carrega a página */}
             <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/index" element={<Home />} />
+
             <Route path="/product" element={<Product />} />
+            <Route path="/produto" element={<Product />} />
+            <Route path="/produtos" element={<Product />} />
+            
             <Route path="/about" element={<About />} />
 
             {/* Qualquer rota não encontrada, será direcionada para NotFound */}

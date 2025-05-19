@@ -28,3 +28,7 @@ nav {
         }
     }
 }
+
+.gremio {
+    background-color: var(--color-09);
+}

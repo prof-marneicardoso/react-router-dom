@@ -1,10 +1,24 @@
+import { Footer } from "../Components/Footer";
+import { Header } from "../Components/Header";
+import { Main } from "../Components/Main";
+import { Nav } from "../Components/Nav";
 
 export function About() {
     return (
         <>
-        <h1>Sobre a empresa</h1>
+        <Nav className="gremio" id="23" />
+        {/* <Nav>
+            {/* children /}
+            Este é o contéudo do children
+        </Nav> */}
+        <Header />
+        <Main>
+            <h1>Sobre a empresa</h1>
 
-        <p>Placeat praesentium inventore omnis necessitatibus quos, error labore? Expedita nisi at voluptas obcaecati, cupiditate quos dolorum accusamus! Veritatis non esse placeat quos eius est? Nisi, tenetur recusandae doloremque error minus commodi ullam, nostrum placeat ad quas quia, rerum tempore molestiae debitis suscipit nihil delectus vero magni saepe incidunt mollitia totam ipsa. Qui sed dolores voluptas ex? Inventore provident fugit dolorum harum voluptates quis numquam cumque ducimus, neque soluta nostrum ab, ipsum quaerat eaque, maiores deserunt! A vel amet rerum exercitationem magni sapiente iure temporibus dicta alias recusandae. Quos commodi eius impedit? Commodi, quos non. Quod excepturi consequuntur quo nulla mollitia at ipsum nostrum dolor natus numquam, perferendis, a eveniet aspernatur voluptate eum explicabo dolores. Nisi, recusandae modi saepe, ipsam nulla nostrum iusto impedit, explicabo voluptate blanditiis commodi optio maiores laudantium. Eaque praesentium deserunt ducimus, sed dolor dignissimos quas amet qui voluptates commodi pariatur sit aut alias ut eius repudiandae architecto. Laborum architecto dolorum minima aspernatur eius ut libero numquam, ipsa quisquam blanditiis? Ea eligendi architecto cumque soluta assumenda expedita saepe, quia accusantium at veniam laborum facilis eos voluptatum qui nobis similique minus beatae neque necessitatibus. Adipisci quae odio earum, tenetur molestias vitae?</p>
+            <p>Amet perferendis mollitia magni nostrum consectetur repellendus eveniet explicabo, aliquid nemo molestiae. Sequi tempore iste sint. Cum neque dolorum non numquam nobis porro consectetur modi, tenetur animi, cumque alias eaque vero natus rem voluptate sed minus reiciendis recusandae fugiat ratione pariatur libero enim earum nulla? Eveniet, illum minus commodi ipsam doloribus similique voluptates sint excepturi aliquid sequi harum a praesentium reiciendis nam suscipit neque laudantium ipsa quas, cupiditate accusantium quidem illo rerum repellendus. Ab provident alias laborum aliquam odit voluptate consequuntur quos sunt, rem optio? Asperiores sunt, totam, ab maxime beatae eligendi autem saepe necessitatibus ipsam cum voluptatem aut tenetur mollitia dicta, quas nulla laborum possimus obcaecati repellat placeat vel. Eius voluptates nostrum repellendus aspernatur sed dolorum doloribus officia illum explicabo ea cum quidem possimus incidunt impedit maxime quibusdam ab, numquam a labore harum quod, et ullam vitae! Eos itaque deleniti, non amet cupiditate veritatis quaerat. Doloremque magni dicta repellat voluptatum maiores nisi, incidunt nesciunt veritatis soluta expedita ab vel! Voluptas obcaecati eius nostrum labore delectus vitae quam impedit in, iusto rem vel doloribus praesentium quo assumenda dolore illo officiis quasi minima ad quisquam dicta sit autem corporis! Pariatur et voluptatem facere.</p>
+            <p>Excepturi error, doloribus porro iure itaque optio obcaecati voluptate aspernatur aperiam corporis similique saepe odio labore! Nisi, iusto consequuntur velit incidunt iste suscipit quam aliquid, alias quisquam sit enim voluptates dolorem placeat iure, optio fuga quos quas possimus aspernatur qui doloremque commodi.</p>
+        </Main>
+        <Footer />
         </>
     );
 }
